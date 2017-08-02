@@ -1,0 +1,46 @@
+{
+    "author": "TildaCubed",
+    "dependencies": {},
+    "keywords": [],
+    "name": "tiwatchface",
+    "pebble": {
+        "displayName": "TI Watchface",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/bt_disconnect.bmp",
+                    "name": "BT_DC",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/TI_84_Font_40.ttf",
+                    "name": "TI_FONT_40",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/TI_84_Font_18.ttf",
+                    "name": "TI_FONT_18",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "05b82d27-e7d8-40a9-8cf1-c1ba2eabd5eb",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.1.0"
+}
